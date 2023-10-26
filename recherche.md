@@ -3,7 +3,7 @@ Modifiez votre migration existante ou créez une nouvelle migration pour ajouter
 
 bash
 Copy code
-````bash
+```bash
 php artisan make:migration add_image_to_quizzes_table --table=quizzes
 ```
 Cela créera un fichier de migration dans le dossier database/migrations. Modifiez ce fichier de migration pour ajouter une colonne pour l'image :
